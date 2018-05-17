@@ -13,6 +13,9 @@
   "dependencies": {},
   "devDependencies": {},
   "buildpacks": [
+    { 
+      "url": "https://github.com/siassaj/heroku-buildpack-git-deploy-keys.git#master"
+    },
     {
       "url": "https://github.com/heroku/salesforce-cli-buildpack"
     },
